@@ -7,7 +7,7 @@ import base64
 
 app = Flask(__name__)
 
-playstore = pd.read_csv('~/data/googleplaystore.csv')
+playstore = pd.read_csv('FlaskUI_GooglePlayStore-main\data\googleplaystore.csv')
 
 playstore.drop_duplicates(subset = ['App']) 
 
